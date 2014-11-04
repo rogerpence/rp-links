@@ -117,6 +117,7 @@ var categories = [
             {free: true, url: "https://trello.com/", text: "Trello", summary: "Project manager "}, 
             {free: true, url: "https://en.todoist.com/", text: "Todoist", summary: "To-do list manager"}, 
             {free: true, url: "https://aggdata.com/", text: "AggData", summary: "Free and commercial databases"}, 
+            {free: true, url: "http://converter.telerik.com/", text: "Telerik VB/C# converter", summary: "Convert VB.NET and C#"}, 
             {free: true, url: "https://developers.google.com/speed/libraries/", text: "Google Hosted Libraries", summary: "Google content delivery network"}, 
         ]
     },

@@ -42,7 +42,9 @@ var categories = [
             {free: true, url: "http://www.datatables.net/", text: "jQuery DataTables", summary: "Client-side GridView replacement"}, 
             {free: true, url: "http://rubyinstaller.org/", text: "RubyInstaller for Windows", summary: "Ruby language Windows"}, 
             {free: true, url: "http://nodejs.org/", text: "node.js", summary: "Node.JS language for Windows"}, 
-            {free: true, url: "http://requirejs.org/", text: "RequireJS", summary: "JavaScript file and module loader"}, 
+            {free: true, url: "http://nodejs.org/", text: "node.js", summary: "Node.JS language for Windows"}, 
+            {free: true, url: "http://logging.apache.org/log4net/", text: "Log4net", summary: "Logger for .NET apps"}, 
+            {free: true, url: "https://github.com/ifightcrime/bootstrap-growl/blob/master/jquery.bootstrap-growl.js", text: "Bootstrap-growl", summary: "Growl-type messages for Bootstap"}, 
             {free: true, url: "http://getfuelux.com/index.html", text: "Fuel UX", summary: "Bootstrap extension library"} 
         ]
     },
@@ -65,6 +67,7 @@ var categories = [
             {free: true, url: "http://www.dropbox.com", text: "Dropbox", summary: "Shared storage"}, 
             {free: true, url: "http://drive.google.com", text: "Google Drive", summary: "Shared storage"}, 
             {free: true, url: "https://onedrive.live.com/about/en-us/", text: "MS OneDrive", summary: "Shared storage"}, 
+            {free: true, url: "http://winmerge.org/", text: "WinMerge", summary: "Windows file compare utility"}, 
             {free: true, url: "http://www.getpaint.net", text: "Paint.NET", summary: "MS Paint alternative"} 
         ]
     },
@@ -118,6 +121,7 @@ var categories = [
             {free: true, url: "https://en.todoist.com/", text: "Todoist", summary: "To-do list manager"}, 
             {free: true, url: "https://aggdata.com/", text: "AggData", summary: "Free and commercial databases"}, 
             {free: true, url: "http://converter.telerik.com/", text: "Telerik VB/C# converter", summary: "Convert VB.NET and C#"}, 
+            {free: true, url: "http://jsbeautifier.org/", text: "JavaScript/HTML formatter", summary: "Reformat JavaScript and HTML"}, 
             {free: true, url: "https://developers.google.com/speed/libraries/", text: "Google Hosted Libraries", summary: "Google content delivery network"}, 
         ]
     },

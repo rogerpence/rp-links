@@ -122,7 +122,7 @@
             </h4>
           </div>
 
-          <div id="category<%= id %>" class="panel-collapse collapse in url-group">
+          <div id="category<%= id %>" class="panel-collapse collapse out url-group">
             <div class="panel-body accordion-inner">
             </div>
           </div>
@@ -154,7 +154,7 @@
     $(function(){
 
       var collapsed = true;
-      $(".url-group").removeClass("in").addClass("out");
+      //$(".url-group").removeClass("in").addClass("out");
 
       $(document).keypress(function(e) {
           if (e.which === 32) {

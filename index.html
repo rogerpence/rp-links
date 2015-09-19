@@ -46,7 +46,7 @@
 
   .swl-link {
       font-size: 110%;
-      font-weight: 600;        
+      font-weight: 600;
   }
 </style>
 
@@ -56,7 +56,6 @@
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <img class="logo-image" src="public/images/logo-sm-1.0.8.png" height="30" width="100" />
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -74,12 +73,8 @@
     <div class="container site-begins">
       <div class="row">
         <div class="col-md-12">
-            <span class="big-heading">Software we</span>
-            <img src="public/images/heart.png" height="206" width="331"></img>    
-            <p class="lead">Software, blogs, sites and utilities we use every day!</p>     
             <a href="#" id="toggle-url-display">Collapse all links</a>
             <p>&nbsp;Most of what is listed here is either open source of free but a <span class="fa fa-dollar"></span> indicates you need to spend money.</p>
-            <p>If you'd like to nominate utilities or Websites to this list, please email your nominees to rp@asna.com.</p>
         </div>
       </div>
       <div class="row">
@@ -103,16 +98,16 @@
     <script src="public/js/application.js"></script>
 
     <script type="text/template" id="url-template">
-      </span><a href="<%= url %>"><%= text %></a> 
+      </span><a href="<%= url %>"><%= text %></a>
       <% if (summary != "") { %>
-        <span class="fa fa-circle small-icon"></span> 
+        <span class="fa fa-circle small-icon"></span>
       <% } %>
       <%= summary %>
       <% if (! free) { %>
-        &nbsp;<span class="fa fa-dollar"></span>  
-      <% } %>     
+        &nbsp;<span class="fa fa-dollar"></span>
+      <% } %>
     </script>
-    
+
     <script type="text/template" id="accordion-group-template">
       <div class="panel panel-default">
          <div class="panel-heading">
@@ -133,7 +128,7 @@
     <script type="text/javascript">
       MyApp.addInitializer(function(options){
         var categories = new Categories(options.list);
-        
+
         // each category's urls must be a backbone collection
         // we initialize them here
         categories.each(function(category){
@@ -141,7 +136,7 @@
           var urlsCollection = new Urls(urls);
           category.set('urls', urlsCollection);
         });
-        
+
         var categoriesView = new CategoriesView({
           collection: categories
         });
@@ -157,7 +152,7 @@
       $('#toggle-url-display').click(function(e) {
         e.preventDefault();
         if (collapsed) {
-          $(".url-group").removeClass("out").addClass("in");          
+          $(".url-group").removeClass("out").addClass("in");
           $(this).text('Collapse all links');
         }
         else {

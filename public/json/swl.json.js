@@ -121,13 +121,15 @@ var categories = [
             {free: true, url: "http://alistapart.com/", text: "A List Apart", summary: "Web coding site"},
             {free: true, url: "http://www.sitepoint.com/", text: "Sitepoint", summary: "Web coding site"}
         ]
-    },    
+    },
     {   id: 300,
         category: "Blogs - rp" ,
         urls: [
             {free: true, url: "https://linuxclinixcom.disqus.com/admin/moderate/#/approved", text: "LinuxClinix", summary: "Comments"},
             {free: true, url: "http://linuxclinix.com/", text: "LinuxClinix", summary: "As user"},
-            {free: true, url: "http://linuxclinix.com/ghost", text: "LinuxClinix", summary: "As admin"}
+            {free: true, url: "http://linuxclinix.com/ghost", text: "LinuxClinix", summary: "As admin"},
+            {free: true, url: "http://www.rogerpence", text: "RogerPence.com", summary: "As user"},
+            {free: true, url: "http://www.rogerpence.com/admin", text: "RogerPence.com/admin", summary: "As admin"}
         ]
     },
     {   id: 7,

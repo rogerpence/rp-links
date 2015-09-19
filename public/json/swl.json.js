@@ -5,7 +5,9 @@ var categories = [
             {free: true, url: "https://gist.github.com/rogerpence", text: "Github gists", summary: "rp"},
             {free: true, url: "https://github.com/jrnickell", text: "Github", summary: "John Nickell"},
             {free: true, url: "https://github.com/rogerpence", text: "Github", summary: "Roger Pence"},
-            {free: true, url: "https://github.com/novuso", text: "Github", summary: "Novuso"}
+            {free: true, url: "https://github.com/novuso", text: "Github", summary: "Novuso"},
+            {free: true, url: "https://github.com/ASNA", text: "Github", summary: "ASNA"},
+            {free: true, url: "https://github.com/ASNApalooza", text: "Github", summary: "ASNApalooza"}
         ]
     },
     {   id: 100,
@@ -141,7 +143,7 @@ var categories = [
             {free: true, url: "http://jsbeautifier.org/", text: "JavaScript/HTML formatter", summary: "Reformat JavaScript and HTML"},
             {free: true, url: "https://developers.google.com/speed/libraries/", text: "Google Hosted Libraries", summary: "Google content delivery network"},
             {free: true, url: "http://www.danstools.com/", text: "Dan's Tools", summary: "Tons of useful Web dev tools"},
-            {free: true, url: "http://permissions-calculator.org/", text: "Linux permission calculator", summary: "Calculate octal value for Linux file system permissions"}
+            {free: true, url: "http://permissions-calculator.org/", text: "Linux permission calculator", summary: "Calculate octal value for Linux file system permissions"}a
         ]
     },
     {   id: 8,

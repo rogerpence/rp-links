@@ -65,6 +65,9 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
+            <li class="active">
+            <a href="http://rogerpence.github.io/rphomepage/">Old rp links</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -100,7 +103,8 @@
     <script type="text/template" id="url-template">
       </span><a href="<%= url %>"><%= text %></a>
       <% if (summary != "") { %>
-        <span class="fa fa-circle small-icon"></span>
+          <!-- <span class="fa fa-circle small-icon" style="font-size:50%"></span> -->
+          |
       <% } %>
       <%= summary %>
       <% if (! free) { %>

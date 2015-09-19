@@ -143,7 +143,7 @@ var categories = [
             {free: true, url: "http://jsbeautifier.org/", text: "JavaScript/HTML formatter", summary: "Reformat JavaScript and HTML"},
             {free: true, url: "https://developers.google.com/speed/libraries/", text: "Google Hosted Libraries", summary: "Google content delivery network"},
             {free: true, url: "http://www.danstools.com/", text: "Dan's Tools", summary: "Tons of useful Web dev tools"},
-            {free: true, url: "http://permissions-calculator.org/", text: "Linux permission calculator", summary: "Calculate octal value for Linux file system permissions"}a
+            {free: true, url: "http://permissions-calculator.org/", text: "Linux permission calculator", summary: "Calculate octal value for Linux file system permissions"}
         ]
     },
     {   id: 8,

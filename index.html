@@ -76,8 +76,8 @@
     <div class="container site-begins">
       <div class="row">
         <div class="col-md-12">
-            <a href="#" id="toggle-url-display">Collapse all links</a>
-            <p>&nbsp;Most of what is listed here is either open source of free but a <span class="fa fa-dollar"></span> indicates you need to spend money.</p>
+            <p>Tap spacebar to toggle detail display</p>
+            <p>&nbsp;Most of what is listed here is either open source or free but a <span class="fa fa-dollar"></span> indicates you need to spend money.</p>
         </div>
       </div>
       <div class="row">
@@ -152,19 +152,26 @@
 
     <script>
     $(function(){
-      var collapsed = false;
-      $('#toggle-url-display').click(function(e) {
-        e.preventDefault();
-        if (collapsed) {
-          $(".url-group").removeClass("out").addClass("in");
-          $(this).text('Collapse all links');
-        }
-        else {
-          $(".url-group").removeClass("in").addClass("out");
-          $(this).text('Show all links');
-        }
-        collapsed = ! collapsed;
+
+      var collapsed = true;
+      $(".url-group").removeClass("in").addClass("out");
+
+      $(document).keypress(function(e) {
+          if (e.which === 32) {
+            e.preventDefault();
+            console.log("space");
+            if (collapsed) {
+              $(".url-group").removeClass("out").addClass("in");
+            // //     $(this).text('Collapse all links');
+            }
+            else {
+              $(".url-group").removeClass("in").addClass("out");
+            //   $(this).text('Show all links');
+            }
+            collapsed = ! collapsed;
+          }
       });
+
     });
     </script>
 

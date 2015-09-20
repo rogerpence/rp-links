@@ -140,9 +140,9 @@ var categories = [
     {   id: 300,
         category: "Blogs - rp" ,
         urls: [
-            {free: true, url: "https://linuxclinixcom.disqus.com/admin/moderate/#/approved", text: "LinuxClinix", summary: "Comments"},
-            {free: true, url: "http://linuxclinix.com/", text: "LinuxClinix", summary: "As user"},
             {free: true, url: "http://linuxclinix.com/ghost", text: "LinuxClinix", summary: "As admin"},
+            {free: true, url: "http://linuxclinix.com/", text: "LinuxClinix", summary: "As user"},
+            {free: true, url: "https://linuxclinixcom.disqus.com/admin/moderate/#/approved", text: "LinuxClinix", summary: "Moderate comments"},
             {free: true, url: "http://www.rogerpence.com", text: "RogerPence.com", summary: "As user"},
             {free: true, url: "http://www.rogerpence.com/admin", text: "RogerPence.com/admin", summary: "As admin"}
         ]

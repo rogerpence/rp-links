@@ -104,16 +104,15 @@
 
     <span class="larger-text">
       <% if (summary != "") { %>
-        <a href="<%= url %>"><%= text %> | <%= summary %></a>
+        <a href="<%= url %>" target="_blank"><%= text %> | <%= summary %></a>
       <% } else { %>
-        <a href="<%= url %>"><%= text %></a>
+        <a href="<%= url %>" target="_blank"><%= text %></a>
       <% } %>
     </span>
 
       <% if (! free) { %>
         &nbsp;<span class="fa fa-dollar"></span>
       <% } %>
-
 
     </script>
 

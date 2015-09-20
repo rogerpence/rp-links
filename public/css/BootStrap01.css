@@ -17,3 +17,11 @@
   margin-top: 20px;
 }
 */
+
+.larger-text {
+    font-size: 120%;
+}
+
+a {
+    color: black;
+}

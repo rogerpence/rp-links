@@ -101,20 +101,15 @@
     <script src="public/js/application.js"></script>
 
     <script type="text/template" id="url-template">
-
-    <span class="larger-text">
+      </span><a href="<%= url %>"><%= text %></a>
       <% if (summary != "") { %>
-        <a href="<%= url %>"><%= text %> | <%= summary %></a>
-      <% } else { %>
-        <a href="<%= url %>"><%= text %></a>
+          <!-- <span class="fa fa-circle small-icon" style="font-size:50%"></span> -->
+          |
       <% } %>
-    </span>
-
+      <%= summary %>
       <% if (! free) { %>
         &nbsp;<span class="fa fa-dollar"></span>
       <% } %>
-
-
     </script>
 
     <script type="text/template" id="accordion-group-template">

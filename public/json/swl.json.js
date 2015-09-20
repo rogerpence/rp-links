@@ -1,4 +1,18 @@
 var categories = [
+    {   id: 500,
+        category: "ASNA" ,
+        urls: [
+            {free: false, url: "https://asnaeu.crm4.dynamics.com/main.aspx#947445431", text: "CRM", summary: "CRM"},
+            {free: false, url: "http://outlook.office365.com/", text: "Email", summary: "Email"},
+            {free: false, url: "https://app.asana.com/0/30252059916997/30252059916997", text: "ASANA", summary: "To-dos"}
+        ]
+    },
+    {   id: 400,
+        category: "Entertainment" ,
+        urls: [
+            {free: false, url: "https://www.siriusxm.com/player/", text: "Music", summary: "SiriusXM"}
+        ]
+    },
     {   id: 200,
         category: "GitHub repos" ,
         urls: [

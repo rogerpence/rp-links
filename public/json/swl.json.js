@@ -1,3 +1,6 @@
+//   {free: true, url: "", text: "", summary: ""},
+
+
 var categories = [
     {   id: 500,
         category: "ASNA" ,
@@ -150,6 +153,9 @@ var categories = [
     {   id: 7,
         category: "Websites" ,
         urls: [
+            {free: true, url: "http://www.yamllint.com/", text: "YAML linter", summary: ""},
+            {free: true, url: "https://travis-ci.org", text: "Travis CI", summary: "Continuous integration"},
+            {free: true, url: "https://workflowy.com", text: "WorkFlowy", summary: "Online outliner"},
             {free: true, url: "http://jsfiddle.net/", text: "JSFiddle", summary: "JavaScript tester/IDE"},
             {free: true, url: "http://www.jslint.com/", text: "JSLint", summary: "Test the quality of your JavaScript"},
             {free: true, url: "http://jsonlint.com/", text: "JSONLint", summary: "Test the quality of your Json"},

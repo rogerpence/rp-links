@@ -153,7 +153,8 @@ var categories = [
     {   id: 7,
         category: "Websites" ,
         urls: [
-            {free: true, url: "http://www.yamllint.com/", text: "YAML linter", summary: ""},
+            {free: true, url: "http://codebeautify.org/yaml-to-json-xml-csv", text: "Code Beautify", summary: "YAML converter"},
+            {free: true, url: "http://www.yamllint.com/", text: "YAMLLint", summary: "YAML linter"},
             {free: true, url: "https://travis-ci.org", text: "Travis CI", summary: "Continuous integration"},
             {free: true, url: "https://workflowy.com", text: "WorkFlowy", summary: "Online outliner"},
             {free: true, url: "http://jsfiddle.net/", text: "JSFiddle", summary: "JavaScript tester/IDE"},

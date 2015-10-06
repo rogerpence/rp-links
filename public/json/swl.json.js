@@ -9,7 +9,7 @@ var categories = [
             {free: true, url: "http://outlook.office365.com/", text: "Email", summary: "Email"},
             {free: true, url: "https://app.asana.com/0/30252059916997/30252059916997", text: "ASANA", summary: "To-dos"},
             {free: true, url: "https://asna.com/us/tech/kb/doc", text: "ASNA.com", summary: "TechHub"},
-            {free: true, url: "http://www-03.ibm.com/certify/partner/pub/zz/index.shtml", text: "IBM Partnerworld", summary: "user: Asnamrkt password: avrdeveloper"}
+            {free: true, url: "http://www-03.ibm.com/certify/partner/pub/zz/index.shtml", text: "IBM Partnerworld", summary:""}
         ]
     },
     {   id: 400,

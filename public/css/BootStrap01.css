@@ -20,8 +20,20 @@
 
 .larger-text {
     font-size: 120%;
+    font-weight: 600;
 }
+
+.smaller-text {
+    font-size: 95%;
+    font-weight: 500;
+}
+
 
 a {
     color: black;
+    text-decoration: none;
+}
+
+a, a:-webkit-any-link {
+    text-decoration: none;
 }

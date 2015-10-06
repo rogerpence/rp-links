@@ -10,10 +10,15 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="public/vendor/bootstrap/dist/css/bootstrap.min.css">
 
+
+    <link rel="stylesheet" href="public/vendor/font-awesome/css/font-awesome.min.css">
+
     <!-- Page specific CSS. -->
     <link rel="stylesheet" href="public/css/BootStrap01.css">
 
-    <link rel="stylesheet" href="public/vendor/font-awesome/css/font-awesome.min.css">
+    <style>
+
+    </style>
 
     <link rel="icon" href="public/ico/favicon.ico">
 <style>
@@ -101,21 +106,36 @@
     <script src="public/js/application.js"></script>
 
     <script type="text/template" id="url-template">
-
-    <span class="larger-text">
-      <% if (summary != "") { %>
-        <a href="<%= url %>" target="_blank"><%= text %> | <%= summary %></a>
-      <% } else { %>
-        <a href="<%= url %>" target="_blank"><%= text %></a>
-      <% } %>
-    </span>
-
-      <% if (! free) { %>
-        &nbsp;<span class="fa fa-dollar"></span>
-      <% } %>
-
+      <span class="smaller-text">
+        <% if (summary != "") { %>
+          <a href="<%= url %>" target="_blank"><%= text %> | <%= summary %></a>
+        <% } else { %>
+          <a href="<%= url %>" target="_blank"><%= text %></a>
+        <% } %>
+        <% if (! free) { %>
+          &nbsp;<span class="fa fa-dollar"></span>
+        <% } %>
+      </span>
     </script>
 
+    <script type="text/template" id="accordion-group-template">
+      <a data-toggle="collapse" data-parent="#accordion" href="#category<%= id %>">
+      <div class="panel panel-default">
+         <div class="panel-heading">
+            <h4 class="panel-title">
+                <span class="larger-text"><%= category %></span>
+            </h4>
+          </div>
+
+          <div id="category<%= id %>" class="panel-collapse collapse out url-group">
+            <div class="panel-body accordion-inner">
+            </div>
+          </div>
+      </div>
+      </a>
+    </script>
+
+<!--
     <script type="text/template" id="accordion-group-template">
       <div class="panel panel-default">
          <div class="panel-heading">
@@ -132,6 +152,7 @@
           </div>
         </div>
     </script>
+-->
 
     <script type="text/javascript">
       MyApp.addInitializer(function(options){
@@ -148,6 +169,7 @@
         var categoriesView = new CategoriesView({
           collection: categories
         });
+
         MyApp.mainRegion.show(categoriesView);
       });
 

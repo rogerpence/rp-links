@@ -1,6 +1,5 @@
 //   {free: true, url: "", text: "", summary: ""},
 
-
 var categories = [
     {   id: 500,
         category: "ASNA" ,

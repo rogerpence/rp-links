@@ -118,8 +118,10 @@
       </span>
     </script>
 
+<!--
+
     <script type="text/template" id="accordion-group-template">
-      <a data-toggle="collapse" data-parent="#accordion" href="#category<%= id %>">
+      <a class="category-heading" data-toggle="collapsexxxx" data-parent="#accordion" href="#category<%= id %>">
       <div class="panel panel-default">
          <div class="panel-heading">
             <h4 class="panel-title">
@@ -134,8 +136,26 @@
       </div>
       </a>
     </script>
+-->
 
-<!--
+    <script type="text/template" id="accordion-group-template">
+      <div class="panel panel-default">
+         <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion" href="#category<%= id %>">
+              <h4 class="panel-title">
+                 <%= category %>
+              </h4>
+            </a>
+          </div>
+
+          <div id="category<%= id %>" class="panel-collapse collapse out url-group">
+            <div class="panel-body accordion-inner">
+            </div>
+          </div>
+        </div>
+    </script>
+
+
     <script type="text/template" id="accordion-group-template">
       <div class="panel panel-default">
          <div class="panel-heading">
@@ -152,7 +172,7 @@
           </div>
         </div>
     </script>
--->
+
 
     <script type="text/javascript">
       MyApp.addInitializer(function(options){
@@ -178,6 +198,11 @@
 
     <script>
     $(function(){
+
+      //$("a.category-heading").collapse("toggle");
+      //on("click", function() {
+
+      //});
 
       var collapsed = true;
       //$(".url-group").removeClass("in").addClass("out");

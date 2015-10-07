@@ -22,11 +22,11 @@ var categories = [
         category: "GitHub repos" ,
         urls: [
             {free: true, url: "https://gist.github.com/rogerpence", text: "Github gists", summary: "rp"},
-            {free: true, url: "https://github.com/jrnickell", text: "Github", summary: "John Nickell"},
-            {free: true, url: "https://github.com/rogerpence", text: "Github", summary: "Roger Pence"},
-            {free: true, url: "https://github.com/novuso", text: "Github", summary: "Novuso"},
-            {free: true, url: "https://github.com/ASNA", text: "Github", summary: "ASNA"},
-            {free: true, url: "https://github.com/ASNApalooza", text: "Github", summary: "ASNApalooza"}
+            {free: true, url: "https://github.com/jrnickell?tab=repositories", text: "Github", summary: "John Nickell"},
+            {free: true, url: "https://github.com/rogerpence?tab=repositories", text: "Github", summary: "Roger Pence"},
+            {free: true, url: "https://github.com/novuso?tab=repositories", text: "Github", summary: "Novuso"},
+            {free: true, url: "https://github.com/ASNA?tab=repositories", text: "Github", summary: "ASNA"},
+            {free: true, url: "https://github.com/ASNApalooza?tab=repositories", text: "Github", summary: "ASNApalooza"}
         ]
     },
     {   id: 100,

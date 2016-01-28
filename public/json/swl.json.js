@@ -1,6 +1,12 @@
 //   {free: true, url: "", text: "", summary: ""},
 
 var categories = [
+    {   id: 600,
+        category: "Personal",
+        urls: [
+            {free: true, url: "calendar.google.com", text: "Google", summary: "Calendar"}
+        ]
+    },
     {   id: 500,
         category: "ASNA" ,
         urls: [

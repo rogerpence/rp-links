@@ -4,7 +4,7 @@ var categories = [
     {   id: 600,
         category: "Personal",
         urls: [
-            {free: true, url: "calendar.google.com", text: "Google", summary: "Calendar"}
+            {free: true, url: "https://calendar.google.com/calendar", text: "Google", summary: "Calendar"}
         ]
     },
     {   id: 500,

@@ -9,7 +9,7 @@ var categories = [
             {free: true, url: "https://app.asana.com/0/30252059916997/30252059916997", text: "ASANA", summary: "To-dos"},
             {free: true, url: "https://asna.com/us/tech/kb/doc", text: "ASNA.com", summary: "TechHub"},
             {free: true, url: "http://www-03.ibm.com/certify/partner/pub/zz/index.shtml", text: "IBM Partnerworld", summary:""},
-            {free: true, url: "https://asnainc.bamboohr.com/login.php", text: "ASNA BambooIBM", summary:""}
+            {free: true, url: "https://asnainc.bamboohr.com/login.php", text: "ASNA Bamboo", summary:""}
         ]
     },
     {   id: 400,
@@ -176,7 +176,9 @@ var categories = [
             {free: true, url: "http://jsbeautifier.org/", text: "JavaScript/HTML formatter", summary: "Reformat JavaScript and HTML"},
             {free: true, url: "https://developers.google.com/speed/libraries/", text: "Google Hosted Libraries", summary: "Google content delivery network"},
             {free: true, url: "http://www.danstools.com/", text: "Dan's Tools", summary: "Tons of useful Web dev tools"},
-            {free: true, url: "http://permissions-calculator.org/", text: "Linux permission calculator", summary: "Calculate octal value for Linux file system permissions"}
+            {free: true, url: "http://permissions-calculator.org/", text: "Linux permission calculator", summary: "Calculate octal value for Linux file system permissions"},
+            {free: true, url: "http://www.dirtymarkup.com/", text: "HTML/JS/CSS reformatter", summary: "Code Reformatter"},
+            {free: true, url: "http://maps.cga.harvard.edu/gpf/", text: "Get current GEO position", summary: ""}
         ]
     },
     {   id: 8,

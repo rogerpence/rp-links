@@ -15,6 +15,16 @@ var categories = [
             {free: true, url: "http://effbot.org/zone/import-confusion.htm", text: "errbot.org", summary: "Using Python import statement"}
         ]
     },
+    {   id: 655,
+        category: "Cars",
+        urls: [
+            {free: true, url: "http://www.chipfoose.com", text: "Chip Foose", summary: ""},
+            {free: true, url: "http://www.barfinds.com",  text: "Barn Finds", summary: ""},
+            {free: true, url: "http://www.bringatrailer.com", text: "Bring a Trailer", summary: ""},
+            {free: true, url: "http://www.southtexascc.com/schedule.htm", text: "South Texas Car Shows", summary: ""},
+            {free: true, url: "http://www.icon4x4.com/derelict", text: "Icon Derelict", summary: ""
+        ]
+    },
     {   id: 500,
         category: "ASNA" ,
         urls: [

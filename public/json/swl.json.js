@@ -27,7 +27,8 @@ var categories = [
     {   id: 400,
         category: "Entertainment" ,
         urls: [
-            {free: false, url: "https://www.siriusxm.com/player/", text: "Music", summary: "SiriusXM"}
+            {free: false, url: "https://www.siriusxm.com/player/", text: "Music", summary: "SiriusXM"},
+            {free: false, url: "http://www.rifftrax.com/", text: "Videos", summary: "RiffTrax"}
         ]
     },
     {   id: 200,

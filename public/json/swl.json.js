@@ -10,7 +10,7 @@ var categories = [
     {   id: 650,
         category: "Python",
         urls: [
-            {free: true, url: "http://docs.python-guide.org/en/latest/writing/structure/?highlight=import", text: "Google", summary: "Calendar"}
+            {free: true, url: "http://docs.python-guide.org/en/latest/writing/structure/?highlight=import", text: "Hitchhiker's Guide to Python", summary: "Structure your project"}
         ]
     },
     {   id: 500,

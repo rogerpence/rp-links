@@ -7,6 +7,12 @@ var categories = [
             {free: true, url: "https://calendar.google.com/calendar", text: "Google", summary: "Calendar"}
         ]
     },
+    {   id: 650,
+        category: "Python",
+        urls: [
+            {free: true, url: "http://docs.python-guide.org/en/latest/writing/structure/?highlight=import", text: "Google", summary: "Calendar"}
+        ]
+    },
     {   id: 500,
         category: "ASNA" ,
         urls: [

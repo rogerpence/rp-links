@@ -12,7 +12,8 @@ var categories = [
         urls: [
             {free: true, url: "http://docs.python-guide.org/en/latest/writing/structure/?highlight=import", text: "Hitchhiker's Guide to Python", summary: "Structure your project"},
             {free: true, url: "http://learnpythonthehardway.org/book/index.html",  text: "Learning Python the Hard Way", summary: "Table of contents"},
-            {free: true, url: "http://effbot.org/zone/import-confusion.htm", text: "errbot.org", summary: "Using Python import statement"}
+            {free: true, url: "http://effbot.org/zone/import-confusion.htm", text: "errbot.org", summary: "Using Python import statement"},
+            {free: true, url: "http://nullege.com/codes/search/xlrd", text: "Python Excel Library (xlrd)", summary: ""}
         ]
     },
     {   id: 655,

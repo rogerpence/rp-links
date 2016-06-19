@@ -167,6 +167,15 @@ var categories = [
             {free: true, url: "http://www.sitepoint.com/", text: "Sitepoint", summary: "Web coding site"}
         ]
     },
+    {   id: 350,
+        category: "Political blogs" ,
+        urls: [
+            {free: true, url: "http://www.dailykos.com/", text: "Daily Kos", summary: ""},
+            {free: true, url: "http://www.nationalmemo.com/", text: "National Memo", summary: ""},
+            {free: true, url: "http://www.thedailybeast.com/", text: "Daily Beast", summary: ""},
+            {free: true, url: "http://talkingpointsmemo.com/", text: "Talking Points Memo", summary: ""}
+        ]
+    },
     {   id: 300,
         category: "Blogs - rp" ,
         urls: [

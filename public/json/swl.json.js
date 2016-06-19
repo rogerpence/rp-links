@@ -173,7 +173,11 @@ var categories = [
             {free: true, url: "http://www.dailykos.com/", text: "Daily Kos", summary: ""},
             {free: true, url: "http://www.nationalmemo.com/", text: "National Memo", summary: ""},
             {free: true, url: "http://www.thedailybeast.com/", text: "Daily Beast", summary: ""},
-            {free: true, url: "http://talkingpointsmemo.com/", text: "Talking Points Memo", summary: ""}
+            {free: true, url: "http://talkingpointsmemo.com/", text: "Talking Points Memo", summary: ""},
+            {free: true, url: "http://thinkprogress.org/", text: "Think Progress", summary: ""},
+            {free: true, url: "http://www.thenation.com/", text: "The Nation", summary: ""},
+            {free: true, url: "http://crooksandliars.com/", text: "Crooks and Liars", summary: ""},
+            {free: true, url: "http://wonkette.com/", text: "Mother Jones", summary: ""}
         ]
     },
     {   id: 300,

@@ -218,6 +218,7 @@ var categories = [
             {free: true, url: "http://permissions-calculator.org/", text: "Linux permission calculator", summary: "Calculate octal value for Linux file system permissions"},
             {free: true, url: "http://www.dirtymarkup.com/", text: "DirtyMarkup", summary: "HTML/JS/CSS prettyfier"},
             {free: true, url: "http://maps.cga.harvard.edu/gpf/", text: "Get current GEO position", summary: ""}
+            {free: true, url: "http://spin.js.org/", text: "Spin.js", summary: "Ajax SVG spinner"}
         ]
     },
     {   id: 8,

@@ -138,7 +138,8 @@ var categories = [
     {   id: 4,
         category: "Text editors" ,
         urls: [
-            {free: false, url: "http://www.sublimetext.com/", text: "Sublime Text", summary: "Our all-time favorite! Don't leave home without it!"},
+            {free: false, url: "http://www.sublimetext.com/", text: "Sublime Text", summary: "A great editor, but rapidly losing to Visual Studio Code"},
+            {free: true, url: "https://code.visualstudio.com/", text: "Visual Stuido Code", summary: "Not Visual Studio! This is simply a great text edtior"},
             {free: true, url: "https://sublime.wbond.net/", text: "Sublime Text Package Control", summary: "One of the reasons Sublime is our favorite"},
             {free: true, url: "http://notepad-plus-plus.org/", text: "NotePad++", summary: "If you can't afford Sublime"},
             {free: true, url: "https://www.jetbrains.com/webstorm/", text: "WebStorm", summary: "JetBrains HTML/JavaScript/CSS IDE"},
@@ -193,7 +194,8 @@ var categories = [
     {   id: 7,
         category: "Websites" ,
         urls: [
-            {free: true, url: "http://codebeautify.org/yaml-to-json-xml-csv", text: "Code Beautify", summary: "YAML converter"},
+            {free: true, url: "http://codebeautify.org/yaml-to-json-xml-csv", text: "Code Beautify", summary: "YAML converter"},            
+            {free: true, url: "http://dillinger.io/", text: "Online markdown editor", summary: "Markdown editor"},
             {free: true, url: "http://www.yamllint.com/", text: "YAMLLint", summary: "YAML linter"},
             {free: true, url: "https://travis-ci.org", text: "Travis CI", summary: "Continuous integration"},
             {free: true, url: "https://workflowy.com", text: "WorkFlowy", summary: "Online outliner"},

@@ -195,7 +195,8 @@ var categories = [
         category: "Websites" ,
         urls: [
             {free: true, url: "http://codebeautify.org/yaml-to-json-xml-csv", text: "Code Beautify", summary: "YAML converter"},            
-            {free: true, url: "http://dillinger.io/", text: "Online markdown editor", summary: "Markdown editor"},
+            {free: true, url: "http://codepen.io/", text: "Codepen.io", summary: "Online JavaScript/HTML/CSS playground"},                       
+            {free: true, url: "http://dillinger.io/", text: "Dillinger", summary: "online markdown editor"},
             {free: true, url: "http://www.yamllint.com/", text: "YAMLLint", summary: "YAML linter"},
             {free: true, url: "https://travis-ci.org", text: "Travis CI", summary: "Continuous integration"},
             {free: true, url: "https://workflowy.com", text: "WorkFlowy", summary: "Online outliner"},

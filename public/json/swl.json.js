@@ -59,7 +59,14 @@ var categories = [
         category: "Linux/Ubuntu" ,
         urls: [
             {free: true, url: "http://permissions-calculator.org/", text: "Linux permission calculator", summary: "Calculate octal value for Linux file system permissions"},
-            {free: true, url: "https://gist.githubusercontent.com/rogerpence/d1c79afbe157a02ffb1f/raw/fbf1085e08d314d2ebeae6a396c298a02f8207b7/Bash%2520header", text: "Bash scripting", summary: "Bash script header"}
+            {free: true, url: "https://gist.githubusercontent.com/rogerpence/d1c79afbe157a02ffb1f/raw/fbf1085e08d314d2ebeae6a396c298a02f8207b7/Bash%2520header", text: "Bash scripting", summary: "Bash script header"},
+            {free: true, url: "https://www.soapui.org/", text: "Soap.ui", summary: "Web service testing"},
+            {free: true, url: "AutoKey https://code.google.com/archive/p/autokey/", text: "AutoKey", "Summary" : "Keyboard macro facility for Ubuntu`" },
+            {free: true, url: "http://gnometerminator.blogspot.com/p/introduction.html", text: "Terminator", "Summary" : "Terminal" },
+            {free: true, url: "http://www.krusader.org/", text: "Krusader", "Summary" : "File manager" },
+            {free: true, url: "http://www.howtogeek.com/101006/how-to-tweak-unity-on-ubuntu-with-the-compizconfig-settings-manager/", text: "Compiz Settings Manager", "Summary" : "Change esoteric settings" },
+            {free: true, url: "https://launchpad.net/touchpad-indicator", text: "TouchPad Indicator", "Summary" : "Show touchpad status and turn it off" },
+            {free: true, url: "http://www.nongnu.org/synaptic/index.html", text: "Synaptic Package Manager", "Summary" : "Visual package manager" } 
         ]
     },
     {

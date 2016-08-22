@@ -61,12 +61,12 @@ var categories = [
             {free: true, url: "http://permissions-calculator.org/", text: "Linux permission calculator", summary: "Calculate octal value for Linux file system permissions"},
             {free: true, url: "https://gist.githubusercontent.com/rogerpence/d1c79afbe157a02ffb1f/raw/fbf1085e08d314d2ebeae6a396c298a02f8207b7/Bash%2520header", text: "Bash scripting", summary: "Bash script header"},
             {free: true, url: "https://www.soapui.org/", text: "Soap.ui", summary: "Web service testing"},
-            {free: true, url: "AutoKey https://code.google.com/archive/p/autokey/", text: "AutoKey", summary : "Keyboard macro facility for Ubuntu`" },
-            {free: true, url: "http://gnometerminator.blogspot.com/p/introduction.html", text: "Terminator", summary : "Terminal" },
-            {free: true, url: "http://www.krusader.org/", text: "Krusader", summary : "File manager" },
-            {free: true, url: "http://www.howtogeek.com/101006/how-to-tweak-unity-on-ubuntu-with-the-compizconfig-settings-manager/", text: "Compiz Settings Manager", summary : "Change esoteric settings" },
-            {free: true, url: "https://launchpad.net/touchpad-indicator", text: "TouchPad Indicator", summary : "Show touchpad status and turn it off" },
-            {free: true, url: "http://www.nongnu.org/synaptic/index.html", text: "Synaptic Package Manager", summary : "Visual package manager" } 
+            {free: true, url: "AutoKey https://code.google.com/archive/p/autokey/", text: "AutoKey", summary : "Keyboard macro facility for Ubuntu"},
+            {free: true, url: "http://gnometerminator.blogspot.com/p/introduction.html", text: "Terminator", summary : "Terminal"},
+            {free: true, url: "http://www.krusader.org/", text: "Krusader", summary : "File manager"},
+            {free: true, url: "http://www.howtogeek.com/101006/how-to-tweak-unity-on-ubuntu-with-the-compizconfig-settings-manager/", text: "Compiz Settings Manager", summary : "Change esoteric settings"},
+            {free: true, url: "https://launchpad.net/touchpad-indicator", text: "TouchPad Indicator", summary : "Show touchpad status and turn it off"},
+            {free: true, url: "http://www.nongnu.org/synaptic/index.html", text: "Synaptic Package Manager", summary : "Visual package manager"} 
         ]
     },
     {
@@ -130,7 +130,7 @@ var categories = [
             {free: true, url: "http://www.7-zip.org/", text: "7-Zip", summary: "Windows zip utility "},
             {free: true, url: "https://chocolatey.org/", text: "Chocolatey", summary: "Windows utilities package manager"},
             {free: true, url: "http://sourceforge.net/projects/console/", text: "Console2", summary: "DOS command line alternative"},
-            {free: true, url: "http://git-scm.com/", text: "Command line Git client for Windows", summary: "Trust us! The command line is your friend!"},
+            {free: true, url: "http://git-scm.com/", text: "Command line Git client for Windows", summary: "You don't need no stinkin UI!"},
             {free: true, url: "https://windows.github.com/", text: "GitHub for Windows", summary: "Git source control client for Windows"},
             {free: true, url: "http://www.telerik.com/fiddler", text: "Fiddler", summary: "HTTP traffic analyzer"},
             {free: true, url: "https://www.wireshark.org/", text: "WireShark", summary: "When Fiddler isn't enough"},
@@ -146,9 +146,9 @@ var categories = [
         category: "Text editors" ,
         urls: [
             {free: false, url: "http://www.sublimetext.com/", text: "Sublime Text", summary: "A great editor, but rapidly losing to Visual Studio Code"},
-            {free: true, url: "https://code.visualstudio.com/", text: "Visual Stuido Code", summary: "Not Visual Studio! This is simply a great text edtior"},
+            {free: true, url: "https://code.visualstudio.com/", text: "Visual Studio Code", summary: "Not Visual Studio! This is simply a great text edtior"},
             {free: true, url: "https://sublime.wbond.net/", text: "Sublime Text Package Control", summary: "One of the reasons Sublime is our favorite"},
-            {free: true, url: "http://notepad-plus-plus.org/", text: "NotePad++", summary: "If you can't afford Sublime"},
+            {free: true, url: "http://notepad-plus-plus.org/", text: "NotePad++", summary: "Visual Studio Code has made this obsolete"},
             {free: true, url: "https://www.jetbrains.com/webstorm/", text: "WebStorm", summary: "JetBrains HTML/JavaScript/CSS IDE"},
             {free: true, url: "https://atom.io", text: "GitHub Atom", summary: "HTML-based,  Node.JS-driven editor. Not ready for prime,  but coming along."},
             {free: false, url: "http://brackets.io/?lang=en", text: "Adobe Brackets", summary: "HTML-based,  Node.JS-driven editor. Not ready for prime,  but coming along."}

@@ -41,8 +41,6 @@ var categories = [{
             { free: true, url: "https://tweetdeck.twitter.com", text: "TweetDeck", summary: "" },
             { free: true, url: "http://localhost:5000", text: "CRM Web Reporting", summary: "" },
             { free: true, url: "http://localhost/testdeployiis/monarch/signon.aspx", text: "Wings | TestDeployIIS", summary: "" }
-
-            http: //localhost/testdeployiis/monarch/signon.aspx
         ]
     },
     {

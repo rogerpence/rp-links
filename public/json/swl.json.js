@@ -190,7 +190,7 @@ var categories = [{
     },
     {
         id: 350,
-        category: "Political blogs",
+        category: "Humor and politics",
         urls: [
             { free: true, url: "http://www.dailykos.com/", text: "Daily Kos", summary: "" },
             { free: true, url: "http://www.nationalmemo.com/", text: "National Memo", summary: "" },
@@ -199,7 +199,10 @@ var categories = [{
             { free: true, url: "http://thinkprogress.org/", text: "Think Progress", summary: "" },
             { free: true, url: "http://www.thenation.com/", text: "The Nation", summary: "" },
             { free: true, url: "http://crooksandliars.com/", text: "Crooks and Liars", summary: "" },
-            { free: true, url: "http://wonkette.com/", text: "Mother Jones", summary: "" }
+            { free: true, url: "http://wonkette.com/", text: "Mother Jones", summary: "" },
+            { free: true, url: "http://www.theonion.com/features/american-voices", text: "American Voices", summary: "" }
+
+
         ]
     },
     {

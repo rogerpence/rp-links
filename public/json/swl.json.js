@@ -38,7 +38,8 @@ var categories = [{
             { free: true, url: "https://asna.com/us/tech/kb/doc", text: "ASNA.com", summary: "TechHub" },
             { free: true, url: "http://www-03.ibm.com/certify/partner/pub/zz/index.shtml", text: "IBM Partnerworld", summary: "" },
             { free: true, url: "https://asnainc.bamboohr.com/login.php", text: "ASNA Bamboo", summary: "" },
-            { free: true, url: "https://tweetdeck.twitter.com", text: "TweetDeck", summary: "" }
+            { free: true, url: "https://tweetdeck.twitter.com", text: "TweetDeck", summary: "" },
+            { free: true, url: "http://localhost:5000", text: "CRM Web Reporting", summary: "" }
         ]
     },
     {
